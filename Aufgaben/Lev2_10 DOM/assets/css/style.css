@@ -1,0 +1,51 @@
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+button {
+    background-color: #035aa6;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    /* font-family: initial; */
+}
+
+.wrapper {
+    max-width: 500px;
+}
+
+div {
+    border-radius: 5px;
+}
+
+h1 {
+    border-radius: 20px;
+    transition: 0.5s;
+    transition-property: all
+}
+
+.small {
+    border: 5px solid grey;
+    font-Family: initial;
+    font-Size: 20px;
+    color: green;
+}
+
+.med {
+    border: 10px solid grey;
+    font-Family: initial;
+    font-Size: 20px;
+    color: green;
+}
+
+.big {
+    border: 10px solid green;
+    font-Family: initial;
+    font-Size: 35px;
+    color: yellow;
+}
